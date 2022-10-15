@@ -37,6 +37,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 item[6].innerHTML=="X" && item[7].innerHTML=="X" && item[8].innerHTML=="X" ||
                 item[0].innerHTML=="X" && item[3].innerHTML=="X" && item[6].innerHTML=="X" ||
                 item[1].innerHTML=="X" && item[4].innerHTML=="X" && item[7].innerHTML=="X" ||
+                item[3].innerHTML=="X" && item[4].innerHTML=="X" && item[5].innerHTML=="X" ||
                 item[2].innerHTML=="X" && item[5].innerHTML=="X" && item[8].innerHTML=="X" ||
                 item[0].innerHTML=="X" && item[4].innerHTML=="X" && item[8].innerHTML=="X" ||
                 item[2].innerHTML=="X" && item[4].innerHTML=="X" && item[6].innerHTML=="X"){
@@ -50,6 +51,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 item[6].innerHTML=="O" && item[7].innerHTML=="O" && item[8].innerHTML=="O" ||
                 item[0].innerHTML=="O" && item[3].innerHTML=="O" && item[6].innerHTML=="O"||
                 item[1].innerHTML=="O" && item[4].innerHTML=="O" && item[7].innerHTML=="O"||
+                item[3].innerHTML=="O" && item[4].innerHTML=="O" && item[5].innerHTML=="O"||
                 item[2].innerHTML=="O" && item[5].innerHTML=="O" && item[8].innerHTML=="O" ||
                 item[0].innerHTML=="O" && item[4].innerHTML=="O" && item[8].innerHTML=="O" ||
                 item[2].innerHTML=="O" && item[4].innerHTML=="O" && item[6].innerHTML=="O"){
